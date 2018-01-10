@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jesus.sensores03.Sensores03">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENSOR GIROSCOPIO"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VELOCIDAD EJE X"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracionX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_X"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VELOCIDAD EJE Y"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracionY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_Y"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VELOCIDAD EJE Z"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/aceleracionZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion_Z"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTADOR"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0800ff"/>
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contador"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+</LinearLayout>
